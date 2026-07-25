@@ -1767,8 +1767,8 @@
     },
     {
       "name": "claude-wayfinder",
-      "description": "Helps Claude make deterministic, auditable choices about which agent and skills to use for a given task — replacing prose-scanning agent/skill selection with a typed scoring kernel that returns one of seven typed decisions with confidence, rationale, and alternatives.",
-      "version": "1.2.0",
+      "description": "Helps Claude make deterministic, auditable choices about which agent and skills to use for a given task — replacing prose-scanning agent/skill selection with a typed scoring kernel.",
+      "version": "1.4.0",
       "author": {
         "name": "Christopher Beaulieu",
         "url": "https://github.com/glitchwerks"
@@ -1781,9 +1781,7 @@
         "routing",
         "matcher",
         "claude-code",
-        "deterministic",
-        "agent-selection",
-        "auditable"
+        "deterministic"
       ],
       "category": "orchestration",
       "source": {
